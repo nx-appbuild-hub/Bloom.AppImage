@@ -1,0 +1,10 @@
+#! /bin/bash
+set -e
+
+BLOOM_SHARED_PATH=~/.config/bloom
+export BLOOM_SHARED_PATH=${BLOOM_SHARED_PATH}
+
+cd ${HOME}
+
+
+${APPDIR}/bloom/Bloom $@

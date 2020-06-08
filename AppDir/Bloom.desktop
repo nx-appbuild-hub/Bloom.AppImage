@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Bloom
+Comment=Bloom is a fast, light-weight, cross-platform procedural graphics editor
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Graphics;RasterGraphics;Photography;
+Icon=bloom
+Exec=AppRun %U
+

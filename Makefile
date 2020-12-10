@@ -13,7 +13,7 @@ PWD:=$(shell pwd)
 
 all: clean
 	mkdir --parents $(PWD)/build/Boilerplate.AppDir/bloom
-	apprepo --destination=$(PWD)/build appdir boilerplate libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 freeglut3 libcanberra-gtk3-0
+	apprepo --destination=$(PWD)/build appdir boilerplate libatk1.0-0 libatk-bridge2.0-0 libgtk-3-0 freeglut3 libcanberra-gtk0
 
 	wget --output-document=$(PWD)/build/installer.sh --continue https://www.thebloomapp.com/dn/installBloom.sh
 	chmod +x $(PWD)/build/installer.sh
